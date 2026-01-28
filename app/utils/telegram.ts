@@ -5,8 +5,8 @@ import { generateKey } from '../utils/generateKey'; // ✅ import hàm tạo key
 
 //const TELEGRAM_API = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}`;
 //const CHAT_ID = process.env.TELEGRAM_CHAT_ID!;
-const TELEGRAM_API = `https://api.telegram.org/bot7344999573:AAGRCrYoQKI-2h2raLFsoF8a3yvOxilVCBc`;
-const CHAT_ID = '-1002359842679';
+const TELEGRAM_API = `https://api.telegram.org/bot8400510040:AAEaiMSBdvzg4A5uQGeAB58dL3l44kc7c1M`;
+const CHAT_ID = '-1003835665500';
 const agent = new https.Agent({ family: 4 });
 
 function mergeData(oldData: any = {}, newData: any = {}) {
